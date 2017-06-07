@@ -388,8 +388,7 @@ display:none;
 }
 .flexslider {
 	padding:0;
-	 
-	 background: white;
+ background:white; 
 	position: relative;
 	zoom: 1;
 }
@@ -399,9 +398,9 @@ left:0px;
 .flex-direction-nav .flex-next{ 
 right:0px;
 }
-.flex-caption { bottom: 198px;background-color: transparent;color: #fff;margin: 0;/* position: absolute; */left: 0;text-align: right;margin: 0 auto;right: 0px;display: inline-block;bottom: 4%;width: 80%;right: 0 !important;border-radius: 15px 15px 0 0;}
-.flex-caption h3 {color: white;letter-spacing: 0px;margin-bottom: 8px;text-transform: uppercase;font-size: 70px;font-weight: 700;}
-.flex-caption p {color: white;margin: 12px 0 18px;font-size: 24px;font-weight: 400;}
+.flex-caption {zoom: 1;bottom: 198px;background-color: transparent;color: #fff;margin: 0;padding: 2px 25px 0px 30px;/* position: absolute; */left: 0;text-align: left;margin: 0 auto;right: 0px;display: inline-block;bottom: 24%;width: 80%;right: 0 !important;border-radius: 15px 15px 0 0;}
+.flex-caption h3 {color:#FFEB3B;letter-spacing: 0px;margin-bottom: 8px;text-transform: uppercase;font-size: 70px;font-weight: 700;}
+.flex-caption p {margin: 12px 0 18px;color:#FFEB3B;font-size: 22px;font-weight: 400;}
 .skill-home{
 margin-bottom:50px;
 }
